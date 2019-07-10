@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b3d9ff</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#0F2CEC</color>
+    <color name="bar_color">#D7E7F9</color>
+    <color name="progressDialogTextColor">#0F2CEC</color>
+    <color name="progressDialogBg">#FFFFFF</color>
+    <color name="progressDialogBarColor">#0F2CEC</color>
+    <color name="black">#000000</color>
+    <color name="title_color">#FFFFFF</color>
+</resources>

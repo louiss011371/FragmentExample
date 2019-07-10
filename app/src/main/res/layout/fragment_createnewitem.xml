@@ -5,11 +5,11 @@
     android:background="@android:color/holo_blue_light">
 
     <TextView
+        android:id="@+id/chatView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="It is create new goods page"
-        android:id="@+id/chatView"
         android:textSize="30sp" />
 
 </RelativeLayout>

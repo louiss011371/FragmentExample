@@ -23,10 +23,10 @@ public class ChatFragment extends Fragment {
     }
 
     @Override
-    public void onViewCreated(View view, Bundle savedInstanceState)  {
+    public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-    //initialize your view here for use view.findViewById("your view id")
+        //initialize your view here for use view.findViewById("your view id")
         chatView = view.findViewById(R.id.chatView);
         chatView.setTextColor(Color.parseColor("#FF0000"));
         chatView.setText("This is chat ");

@@ -45,7 +45,7 @@ public class ChatActivity extends AppCompatActivity implements NavigationView.On
         switch (id) {
 
             case R.id.nav_home:
-                Intent home = new Intent(ChatActivity.this, MainActivity.class);
+                Intent home = new Intent(ChatActivity.this, HomeActivity.class);
                 startActivity(home);
                 break;
             case R.id.nav_createNewItem:

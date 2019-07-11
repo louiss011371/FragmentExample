@@ -11,9 +11,6 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import org.w3c.dom.Text;
 
 public class ShowAllItemActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     TextView showAll;
@@ -34,6 +31,8 @@ public class ShowAllItemActivity extends AppCompatActivity implements Navigation
         setSupportActionBar(toolbar);
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        drawer.bringToFront();
+        navigationView.bringToFront();
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
                 R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -53,7 +52,7 @@ public class ShowAllItemActivity extends AppCompatActivity implements Navigation
         switch (id) {
 
             case R.id.nav_home:
-                Intent home = new Intent(ShowAllItemActivity.this, MainActivity.class);
+                Intent home = new Intent(ShowAllItemActivity.this, HomeActivity.class);
                 startActivity(home);
                 break;
             case R.id.nav_createNewItem:

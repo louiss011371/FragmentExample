@@ -45,7 +45,7 @@ public class CreateNewItemActivity extends AppCompatActivity implements Navigati
         switch (id) {
 
             case R.id.nav_home:
-                Intent home = new Intent(CreateNewItemActivity.this, MainActivity.class);
+                Intent home = new Intent(CreateNewItemActivity.this, HomeActivity.class);
                 startActivity(home);
                 break;
             case R.id.nav_createNewItem:
